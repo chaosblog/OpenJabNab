@@ -29,7 +29,7 @@ III) Requirements
 
 * A Nabaztag/tag
 * An Apache server (use of RewriteEngine in .htaccess file) or Lighttpd server (use of mod_rewrite, see README.lighty)
-* PHP scripting enabled at prefered Webserver
+* PHP scripting enabled at preferred Webserver
 * Qt 4 correctly installed (with dev libraries)
 
 IV) Installation
