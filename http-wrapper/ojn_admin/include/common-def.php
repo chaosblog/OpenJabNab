@@ -21,6 +21,12 @@ if(isset($_SESSION['token']) && !strpos($_SERVER['REQUEST_URI'],"logout")) {
 	if(!$Infos['isValid'])
 		header('Location: index.php?logout');
 }
+$translations = array();
+if(isset($Infos['language']))
+{
+	if(file_exists(ROOT_SITE.'class/translations.'.$Infos['language'].'.php'))
+		require_once(ROOT_SITE.'class/translations.'.$Infos['language'].'.php');
+}
 $ojnTemplate->setUInfos($Infos);
 ob_start(array($ojnTemplate,'display'));
 ?>
