@@ -14,7 +14,6 @@ $translations = array(
 	"Change your password" => "Changer votre mot de passe",
 	"New password" => "Nouveau mot de passe",
 	"Debug features" => "Fonctionnalités de debug",
-	
 	"No Bunny" => "Aucun lapin",
 	"Connexion" => "Connection",
 	"New account" => "Nouveau compte",
@@ -32,6 +31,7 @@ $translations = array(
 	"Language" => "Langue",
 	"English" => "Anglais",
 	"French" => "Français",
+	"German" => "Allemand",
 	"Apply" => "Appliquer",
 	"Confirm" => "Confirmation",
 	"Reload" => "Recharger",
