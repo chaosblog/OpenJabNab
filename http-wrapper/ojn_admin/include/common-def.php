@@ -24,9 +24,16 @@ if(isset($_SESSION['token']) && !strpos($_SERVER['REQUEST_URI'],"logout")) {
 $translations = array();
 if(isset($Infos['language']))
 {
-	if(file_exists(ROOT_SITE.'class/translations.'.$Infos['language'].'.php'))
-		require_once(ROOT_SITE.'class/translations.'.$Infos['language'].'.php');
+/*	if(file_exists(ROOT_SITE.'class/translations.'.$Infos['language'].'.php'))
+		require_once(ROOT_SITE.'class/translations.'.$Infos['language'].'.php');*/
+//    $locale=$Infos['language'];
+    $locale='de_DE';
 }
+else 
+{
+    $locale = 'en_EN'; // default language: English
+}
+require_once(ROOT_SITE.'include/gettext_main.php');
 $ojnTemplate->setUInfos($Infos);
 ob_start(array($ojnTemplate,'display'));
 ?>

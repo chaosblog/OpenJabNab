@@ -56,11 +56,11 @@ if(isset($_SESSION['message']) && empty($r)) {
 }
 ?>
 <fieldset>
-<legend>Add a bunny to your account</legend>
-<em>Will only work if the server allows it</em><br />
+<legend><?php  echo _('Add a bunny to your account') ?></legend>
+<em><?php  echo _('Will only work if the server allows it') ?></em><br />
 <form method="post">
-<label>Name of your Bunny: <input type="text" name="bname" /></label><br />
-<label>MAC Address: <input type="text" name="bmac" /></label><br />
+<label><?php  echo _('Name of your Bunny')?>: <input type="text" name="bname" /></label><br />
+<label><?php  echo _('MAC Address') ?>: <input type="text" name="bmac" /></label><br />
 <input type="submit" value="Add" />
 </form>
 </fieldset>

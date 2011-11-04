@@ -1,0 +1,173 @@
+# German OpenJabNab translation
+#
+# Marcus "Chaosblog" <chaosblog@debilbox.de>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenJabNab\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-03 11:55+0100\n"
+"PO-Revision-Date: 2011-11-03 12:07+0100\n"
+"Last-Translator: Marcus S. <chaosblog@debilbox.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
+
+msgid "Connexion"
+msgstr "Verbindung"
+
+msgid "Login"
+msgstr "Benutzername"
+
+msgid "Mot de passe"
+msgstr "Passwort"
+
+
+##unproofed
+
+msgid "Add a bunny to your account"
+msgstr "Hasen zu deinem Konto hinzufügen"
+
+msgid "Will only work if the server allows it"
+msgstr "Funktioniert nur wenn der Server es erlaubt"
+
+msgid "Name of your Bunny"
+msgstr "Name deines Hasen"
+
+msgid "MAC Address"
+msgstr "MAC Adresse"
+
+msgid "Remove a bunny from your account"
+msgstr "Hasen aus deinem Konto entfernen"
+
+msgid "Remove a ztamp from your account"
+msgstr "ZStamp aus deinem Konto entfernen"
+
+msgid "No confirmation, so... be careful"
+msgstr "Keine Bestätigung, bitte sei vorsichtig"
+
+msgid "Change your password"
+msgstr "Passwort ändern"
+
+msgid "New password"
+msgstr "Neues Passwort"
+
+msgid "Debug features"
+msgstr "Debug Funktionalität"
+
+msgid "No Bunny"
+msgstr "Kein Hase"
+
+msgid "New account"
+msgstr "Neues Konto"
+
+msgid "Logout"
+msgstr "Abmelden"
+
+msgid "Raw API call"
+msgstr "Direkter API Aufruf"
+
+msgid "DEVELOPMENT Feature. On this page, you can make a direct API call, your token will be added automatically"
+msgstr "Entwicklungsfunktionaliät. Auf dieser Seite kannst du einen direkten API Aufruf durchführen, dein Token wird automatisch angehangen"
+
+msgid "Make your request"
+msgstr "Stelle deine Anfrage"
+
+msgid "Required Plugins"
+msgstr "Benötogte Plugin"
+
+msgid "System Plugins"
+msgstr "Systemplugins"
+
+msgid "Bunnies &amp; Ztamps Plugins"
+msgstr "Plugins für Hasen und Ztamps"
+
+msgid "Account"
+msgstr "Konto"
+
+msgid "Home"
+msgstr "Home"
+
+msgid "Remove"
+msgstr "Entfernen"
+
+msgid "Add"
+msgstr "Hinzufügen"
+
+msgid "Language"
+msgstr "Sprache"
+
+msgid "English"
+msgstr "Englisch"
+
+msgid "French"
+msgstr "Französisch"
+
+msgid "German"
+msgstr "Deutsch"
+
+msgid "Apply"
+msgstr "Übernehmen"
+
+msgid "Confirm"
+msgstr "Bestätigen"
+
+msgid "Reload"
+msgstr "Neu laden"
+
+msgid "Setup"
+msgstr "Einstellungen"
+
+msgid "Deactivate plugin"
+msgstr "Plugin deaktivieren"
+
+msgid "Activate plugin"
+msgstr "Plugin aktivieren"
+
+msgid "Clock"
+msgstr "Zeitansage"
+
+msgid "Change breathing color"
+msgstr "Farbe der Atmung wechseln"
+
+msgid "Dice roll"
+msgstr "Würfeln"
+
+msgid "Direct links"
+msgstr "Direkte Links"
+
+msgid "Nabaztags directory"
+msgstr "Nabaztag Verzeichnis"
+
+msgid "openJabNab Wiki"
+msgstr "openJabNab Wiki"
+
+msgid "openJabNab directory"
+msgstr "openJabNab Verzeichnis"
+
+msgid "Bunnies"
+msgstr "Hasen"
+
+msgid "Ztamps"
+msgstr "Ztamps"
+
+msgid "Plugins"
+msgstr "Plugins"
+
+# PLUGINS
+# auth
+msgid "Manage Authentication process"
+msgstr "Authentifizierungsprozess einrichten"
+
+# boot
+msgid "Manage Boot requests"
+msgstr "Boot-Anfragen verwalten"
+
+# locate
+msgid "Manage Locate requests"
+msgstr "Lokale Anfragen verwalten"
+
+# airquality
+msgid "Air quality plugin"
+msgstr "Luftgüte-Plugin"
